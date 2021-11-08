@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    
+
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esta mesma imagem em vários dispositivos diferentes, ou diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/tutup.jpeg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/tutum.jpeg" type="image/jpeg">
+        <img src="imagens/tutug.jpeg" alt="Imagem flexível">
+    </picture>
+
+    <p>Exemplo de imagens diferentes.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/jpeg">
+        <img src="imagens/fotog.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML.</p>
+    <audio src="media/sux_season-unicorn_head.mp3" controls autoplay></audio>
+
+    <p>Este é outro modo de reproduzir áudios em HTML.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/sux_season-unicorn_head.mp3" type="audio/mp3">
+        <source src="#" type="audio/ogg">
+        <source src="#" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="media/sux_season-unicorn_head.mp3">Clique aqui</a> para baixar o arquivo MP3.</p>
+    </audio>
+
+
+</body>
+</html>

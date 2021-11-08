@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: rgb(137, 169, 199);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    color: rgb(224, 202, 213);
+}
+
+iframe{
+    display: block;
+}
+
+p{
+    text-align: center;
+    color: whitesmoke;
+}
